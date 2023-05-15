@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css-multiple-backgrounds</title>
+<style>
+html {
+    background: url(download.jfif) center no-repeat;
+    background-size: cover
+}
+
+#div1 {
+    height: 630px; 
+    width: 650px; 
+    background-image: url(hat.png), url(walt2.jfif), url(tileable.jfif); 
+    background-size: 50px 100px, auto, auto;
+    background-position: 265px 390px, center bottom, left bottom; 
+    background-repeat: no-repeat, no-repeat, repeat;
+}
+#div2 {
+    height: 630px; 
+    width: 650px; 
+    background: url(hat.png) 500px 500px no-repeat, url(walt2.jfif) center bottom no-repeat, url(tileable.jfif) auto left bottom repeat ;
+    background-size: 50px 100px, auto, auto;
+}
+
+.hero-image {
+    background:url(download.jfif) no-repeat center;
+    background-size:cover
+
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div id="div3" class="hero-image">
+    <div class="hero-text">
+        <h1 style="font-size:50px">I am Brady</h1>
+    <h3>I love cars.</h3>
+    </div>
+</div>
+<div id="div1">
+
+</div>
+<div id="div2">
+
+</div>
+</body>
+</html>
