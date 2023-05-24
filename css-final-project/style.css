@@ -64,14 +64,14 @@ position:absolute;
 border-style: double;
 width:550px;
 left: 800;
-top: 750px;
+top: 550px;
 }
 #accomimg2 {
   position: absolute;
   border-style: double;
   width:600px;
   left:100px;
-  top: 750px 
+  top: 550px 
 }
 #hisimg2 {
   position:absolute;
